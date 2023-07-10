@@ -17,8 +17,9 @@ public class SelectionSort {
         arr[i]=arr[temp];
         arr[temp]=a;
         System.out.println(i);
-        
+
         }
+        return arr;
 
     }
     
